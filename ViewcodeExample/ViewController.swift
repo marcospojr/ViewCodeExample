@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let screen = ViewControllerScreen()
+    
     override func loadView() {
         let view = UIView(frame: UIScreen.main.bounds)
         view.backgroundColor = .red
